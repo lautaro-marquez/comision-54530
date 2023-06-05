@@ -15,110 +15,80 @@
   </head>
   <body>
     <div class="hero">
-      <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">Lautaro Marquez</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="./index.html"
-                    >Inicio</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/about.html">Acerca de mí</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/projects.html">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/contact.html">Contacto</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+      <header class="headerHome">
+        <img src="./index.html" alt="Lautaro Marquez" class="logo" />
+        <nav class="navbar">
+          <a href="./index.html" class="navbar-link">Inicio</a>
+          <a href="./pages/about.html" class="navbar-link">Acerca de mí</a>
+          <a href="./pages/contact.html" class="navbar-link">Contacto</a>
         </nav>
       </header>
       <main>
         <section class="presentation">
-          <div class="presentationDescription">
-            <p class="nombre1">Hola. Soy Lautaro</p>
-          </div>
-          <div class="name2">
-            <p>Diseñador UX/UI y Diseñador de Marca.</p>
-          </div>
-          <button name="cta" class="primaryButton">Proyectos</button>
-          <button name="resume" class="secondaryButton">Ver currículum</button>
-        </section>
-        <section class="proyectos">
-          <div class="sabricoach">
-            <div>
-              <img src="" alt="" />
-              <h3>Sabri Sorrentino</h3>
-              <p>
-                Proyecto que consistió en la creación de un sitio web para
-                Sabrina Sorrentino, Licenciada en Nutrición y Coach.
-              </p>
+          <div class="hero-section">
+            <h1 class="hero-title">Hola. Soy Lautaro</h1>
+            <p class="hero-subtitle">Diseñador UX/UI y Diseñador de Marca.</p>
+            <div class="hero-buttons">
+              <a href="./pages/projects.html" class="hero-button primary"
+                >Ponte en contacto</a
+              >
             </div>
           </div>
-          <div class="notedo">
-            <img src="" alt="" />
-            <h3>NoteDo</h3>
-            <p>
-              NoteDo es un prototipo de aplicación basado en la productividad,
-              que busca la organización del tiempo, las tareas y los proyectos.
-              Todo en un mismo lugar.
-            </p>
+        </section>
+        <section class="proyectos">
+          <div class="proyectos__card">
+            <img
+              src="./assets/img/sabricoach.png"
+              alt="Portada del sitio web de Sabri Sorrentino"
+              class="proyectos__image"
+            />
+            <div class="information">
+              <h3 class="proyectos__titulo">Sabri Sorrentino</h3>
+              <p class="proyectos__descripcion">
+                Proyecto que consistió en la creación de un sitio web para
+                Sabrina Sorrentino, Licenciada en Nutrición y Coach. Mi primer proyecto profesional.
+              </p>
+              <button class="hero-button secondary">Ver presentación</button>
+            </div>
           </div>
-          <div class="orearjont">
-            <img src="" alt="" />
-            <h3>Örearjönt</h3>
-            <p>
-              Compañía de joyería de lujo sustentable, que busca crear
-              consciencia sobre el medio ambiente mediante la creación de piezas
-              con materiales reciclados.
-            </p>
+          <div class="proyectos__card">
+            <img
+              src="./assets/img/notedo.png"
+              alt="Portada del proyecto NoteDo"
+              class="proyectos__image"
+            />
+            <div class="information">
+              <h3 class="proyectos__titulo">NoteDo</h3>
+              <p class="proyectos__descripcion">
+                NoteDo es un prototipo de aplicación basado en la productividad,
+                que busca la organización del tiempo, las tareas y los
+                proyectos. Todo en un mismo lugar.
+              </p>
+              <button class="hero-button secondary">Ver presentación</button>
+            </div>
+          </div>
+          <div class="proyectos__card">
+            <img
+              src="./assets/img/orearjont.jpg"
+              alt="Portada del proyecto Orearjont"
+              class="proyectos__image"
+            />
+            <div class="information">
+              <h3 class="proyectos__titulo">Örearjönt</h3>
+              <p class="proyectos__descripcion">
+                Compañía de joyería de lujo sustentable, que busca crear
+                consciencia sobre el medio ambiente mediante la creación de
+                piezas con materiales reciclados.
+              </p>
+              <button class="hero-button secondary">Ver presentación</button>
+            </div>
           </div>
         </section>
       </main>
-      <footer>
-        <div class="footer">
-          <div>
-            <p>Lautaro Marquez</p>
-          </div>
-          <div>
-            <ul>
-              <li>Inicio</li>
-              <li>Acerca de mí</li>
-              <li>Proyectos</li>
-            </ul>
-          </div>
-          <div>
-            <p>Contacto</p>
-            <ul>
-              <li>LinkedIn</li>
-              <li>Behance</li>
-              <li>Email</li>
-              <!-- Aquí van íconos respectivos de cada red social -->
-            </ul>
-          </div>
-          <p class="copyright">© 2023 Lautaro Marquez</p>
-        </div>
+      <footer class="footer">
+        <a href="index.html" class="footer-link">Inicio</a>
+        <a href="./pages/about.html" class="footer-link">Acerca de mí</a>
+        <a href="./pages/contact.html" class="footer-link">Contacto</a>
       </footer>
     </div>
     <script
