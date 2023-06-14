@@ -1,0 +1,25 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+@import "./vendors/bootstrap-icons";
+
+
+@import "./utilities/variables";
+@import "./base/typo";
+@import "./utilities/mixins";
+
+@import "./base/reset";
+
+@import "./components/buttons";
+@import "./components/forms";
+
+@import "./layout/navbar";
+@import "./layout/header";
+@import "./layout/footer";
+
+@import "./pages/index";
+@import "./pages/about";
+@import "./pages/projects";
+@import "./pages/resources";
+@import "./pages/contact";
+
+@import "./vendors/bootstrap";

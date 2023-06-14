@@ -1,0 +1,32 @@
+.logo {
+    width: 100px;
+    color: #fafafa;
+    display: inline;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerHome {
+    background-color: transparent;
+    display: flex;
+    /* gap: 40em;
+    grid-gap: 40em; */
+    background-color: #171824;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    background-color: #171824;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-link {
+    color: #fafafa;
+    margin: 0 10px;
+    text-decoration: none;
+}

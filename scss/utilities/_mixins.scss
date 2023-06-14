@@ -1,0 +1,43 @@
+@mixin flex ($direction, $wrap, $content, $items) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $content;
+    align-items: $items;
+}
+
+@mixin grid ($columns, $grid) {
+    display: grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+}
+
+@mixin largeScreen {
+    @media (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (min-width: 992px) and (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 768px) and (max-width: 991px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin smallMobile {
+    @media (max-width: 575px) {
+        @content;
+    }
+}

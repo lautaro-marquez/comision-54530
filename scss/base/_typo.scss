@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family */
+$primary-font: 'Geologica';
+$fallback-font: Arial, Helvetica, sans-serif;
+
+/* font-weight */
+$thin: 100;
+$extralight: 200;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+$extrabold: 800;
+$black: 900;
+
+/* font-size */
+$text-desktop: 18px;
+$title-desktop: 26px;
+$subtitle-desktop: 20px;
+$text-mobile: 16px;
+$title-mobile: 22px;
+$subtitle-mobile: 15px;
+
+/* font-style */
+$font-italic: italic;
