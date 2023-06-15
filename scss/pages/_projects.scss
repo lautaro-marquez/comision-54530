@@ -1,0 +1,5 @@
+@include smallMobile {
+    .divProjects {
+        @include flex (row, wrap, center, center);
+    }
+}
