@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="bg-dark text-light">
+  <body class="d-flex flex-column min-vh-100 bg-dark text-light">
     <header>
       <nav class="navbar navbar-expand-lg bg-dark --bs-light">
         <div class="container-fluid">
@@ -69,7 +69,12 @@
     <main>
       <div class="container mt-4">
         <div class="px-4 py-5 my-5 text-center">
-          <h1 class="display-5 text-primary fw-bold">Hola. Soy Lautaro</h1>
+          <h1
+            class="display-5 text-primary fw-bold"
+            style="color: #5c62ec !important"
+          >
+            Hola. Soy Lautaro
+          </h1>
           <h2>Diseñador UX/UI y Diseñador de Marca.</h2>
           <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">
@@ -77,22 +82,28 @@
               cero, o quieras un producto digital, aquí estoy para ti.
             </p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+              <a
+                type="button"
+                class="btn btn-primary btn-lg px-4 gap-3"
+                style="background-color: #5c62ec; border-style: none;"
+                href="./common/contact.html"
+              >
                 Contáctame
-              </button>
-              <button
+              </a>
+              <a
                 type="button"
                 class="btn btn-outline-secondary btn-lg px-4"
+                href="./common/projects.html"
               >
                 Ver proyectos
-              </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </main>
     <div class="container">
-      <footer class="py-3 mt-5">
+      <footer class="py-3 mt-5 mb-0">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li class="nav-item">
             <a href="../index.html" class="nav-link px-2 text-light">Inicio</a>
